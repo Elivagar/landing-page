@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+/* TOP SECTION ------------------------------------------------------------ */
+.header {
+    background: #1f2937;
+    padding: 0 180px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    background: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 180px;
+    gap: 100px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1;
+    max-width: 50%;
+}
+
+.left-side > button {
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+    border: gray;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+.left-side > button:hover {
+    background-color: aqua;
+}
+
+.left-side > p {
+    color: #e5e7eb;
+}
+
+.right-side > img {
+    max-width: 100%;
+    height: auto;
+    border: solid white 1px;
+    border-radius: 16px;
+}
+
+.right-side {
+    flex: 1;
+}
+
+.header > div > a {
+    font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+
+/* END OF TOP SECTION ----------------------------------------------------- */
+/* START OF MAIN SECTION -------------------------------------------------- */
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* SECTION 1 */
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: flex-start;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #1f2937;
+    gap: 20px;
+}
+
+.card > img {
+    max-width: 170px;
+    border: solid #1f2937 1px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* SECTION 2 */
+
+.section2 {
+    height: 400px;
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p.quote {
+    font-size: 30px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0 300px;
+    font-weight: lighter;
+}
+
+p.creds {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 300px;
+}
+
+/* SECTION 3 */
+
+.section3 {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.action {
+    display: flex;
+    width: 800px;
+    height: auto;
+    background: #3882f6;
+    border-radius: 10px;
+    padding: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.actiontext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    gap: 8px;
+}
+
+.action > button {
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+    border: solid white 1px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+}
+
+.actiontext > p {
+    font-size: 14px;
+}
+
+/* END OF MAIN SECTION ---------------------------------------------------- */
+/* START OF FOOTER -------------------------------------------------------- */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f2937;
+}
+
+div.footer {
+    padding: 25px;
+    color: white;
+    font-size: 12px;
+}
