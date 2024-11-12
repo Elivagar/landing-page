@@ -1,3 +1,5 @@
 # landing-page
 
-Finally time to combine the skills I have learned so far into creating a landing-page. It has teached me a lot about how webpages are built from start to finish.
+A basic landing page created using HTML & CSS:
+
+=> <a href="https://elivagar.github.io/landing-page/#">Live Demo</a>
